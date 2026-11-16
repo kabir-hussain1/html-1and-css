@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Work Experience</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2>PRO ZERO</h2>
+
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./sign1.html">Sign Up</a>
+        </nav>
+    </header>
+
+    <main>
+        <video class="bg-video" autoplay muted loop playsinline>
+            <source src="background.mp4" type="video/mp4">
+        </video>
+
+        <div class="form-container">
+
+            <h1>Work Experience</h1>
+            <p>Step 3 of 4</p>
+
+            <form action="signup4.html" method="get">
+
+                <label for="job">Current Job Title</label>
+                <input type="text" id="job" name="job"
+                    placeholder="Enter your job title" required>
+
+                <label for="experience">Years of Experience</label>
+                <input type="number" id="experience" name="experience"
+                    placeholder="Enter years of experience"
+                    min="0" max="60" required>
+
+                <label for="start-date">Employment Start Date</label>
+                <input type="month" id="start-date" name="start-date"
+                    required>
+
+                <label for="resume">Upload Resume</label>
+                <input type="file" id="resume" name="resume"
+                    accept=".pdf,.doc,.docx">
+
+                <label for="skills">Skills</label>
+                <input type="text" id="skills" name="skills"
+                    list="skill-list"
+                    placeholder="Enter or select a skill">
+
+                <datalist id="skill-list">
+                    <option value="HTML">
+                    <option value="CSS">
+                    <option value="JavaScript">
+                    <option value="Python">
+                    <option value="Graphic Design">
+                    <option value="Communication">
+                    <option value="Web Development">
+                    <option value="Microsoft Office">
+                </datalist>
+
+                <div class="button-group">
+                    <a class="back-button" href="signup2.html">Back</a>
+                    <button type="submit"><a href="">NEXT</a></button>
+                </div>
+
+            </form>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Website. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
