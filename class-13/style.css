@@ -1,0 +1,88 @@
+ body {
+     background-color: white;
+    font-family: 'Georgia', serif;
+    color: black;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    line-height: 1.6;
+        }
+
+        .navbar {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(43, 58, 74, 0.2);
+                justify-content: center;
+    gap: 40%;
+        }
+
+        .nav-btn {
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            color: #2b3a4a;
+            padding: 8px 16px;
+            border: 2px solid #2b3a4a;
+            border-radius: 4px;
+            background-color: transparent;
+            transition: all 0.2s ease;
+        }
+
+        .nav-btn.active, 
+        .nav-btn:hover {
+            background-color: #2b3a4a;
+            color: #a3c1ad;
+        }
+
+        h1 {    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            font-style: italic;
+            margin-top: 0;
+            margin-bottom: 25px;
+            opacity: 0.9;
+                margin-left: 48%;
+        }
+
+        .image-container {
+             width: 55%;
+      max-width: 366px;
+    margin: 25px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        margin-top: -240px;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+        }
+
+        h2 {
+            font-size: 1.6rem;
+            font-weight: bold;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+
+        ol, ul {
+            margin-top: 0;
+            margin-bottom: 25px;
+            padding-left: 25px;
+            font-size: 1.05rem;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
